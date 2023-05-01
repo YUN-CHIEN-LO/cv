@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;700&family=Rubik:wght@300;400;600&display=swap');
+@import "rwd.scss";
+@import "var.scss";
+@import "mixin.scss";
+@import "animation.scss";
+
+
+
+* {
+    font-family: 'Noto Sans TC', 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
+
+body,
+html {
+    background-color: $color-background-5;
+
+    @include mobile-device() {
+        * {
+            font-size: 16px;
+            font-weight: normal;
+
+        }
+
+        .desktop-only {
+            display: none;
+        }
+    }
+
+    @include tablet-device() {
+        * {
+            font-size: 16px;
+            font-weight: lighter;
+        }
+    }
+
+    @include desktop-device() {
+        * {
+            font-size: 18px;
+            font-weight: lighter;
+        }
+    }
+
+    .lyc-header {
+        font-weight: bold;
+    }
+
+    .lyc-link.is-primary::before,
+    .lyc-button.is-primary {
+        background-color: $color-background-2;
+    }
+
+    .bold {
+        font-weight: bold;
+
+        &:before,
+        &:after {
+            content: " ";
+        }
+    }
+
+    .fade-enter-active,
+    .fade-leave-active {
+        transition: opacity 0.3s;
+    }
+
+    .fade-enter,
+    .fade-leave-to {
+        opacity: 0;
+    }
+}
+
+
+
+
+
+.single-highlight {
+    font-weight: bold;
+
+    &:before,
+    &:after {
+        content: " ";
+    }
+}
