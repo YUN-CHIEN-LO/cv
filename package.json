@@ -1,0 +1,26 @@
+{
+  "name": "cv",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@yun-chien-lo/lyc-ui": "^0.0.44",
+    "pinia": "^2.0.35",
+    "vue": "^3.2.47",
+    "vue-i18n": "^9.2.2",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.1.0",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "sass": "^1.62.1",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.5",
+    "vue-tsc": "^1.6.4"
+  }
+}

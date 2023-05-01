@@ -1,0 +1,130 @@
+{
+  "layout.home": "Home",
+  "layout.singlePage": "Single Page CV",
+  "layout.lang": "中文",
+  "basic.name": "Yun Chien Lo",
+  "basic.name.lang": "羅云謙",
+  "basic.birth": "Born in 1998",
+  "basic.location": "Taipei City, Taiwan R.O.C / Remote",
+  "basic.email": "yunchienlo.tw{'@'}gmail.com",
+  "summary": "Summary",
+  "summary.about": "About Me",
+  "summary.personality": "My Personality",
+  "summary.ambitions": "Plans and Ambitions",
+  "summary.a": "I am a passionate software engineer who is enthusiastic about front-end technology and development, and is eager to learn the latest techniques to deliver innovative user experiences.",
+  "summary.b1": "I graduated from ",
+  "summary.b2": "the Department of Computer Science at National Tsing Hua University",
+  "summary.b3": "where I gained solid programming training and foundational knowledge in areas such as algorithms, data structures, and operating systems.",
+  "summary.c1": "Since graduation (January 2021), I have worked as a front-end engineer with ",
+  "summary.c2": "2 years of experience in web system development (Vue).",
+  "summary.c3": "I quickly became an important member of the team and received recognition from my colleagues, leading to a ",
+  "summary.c4": "30% increase in salary, ",
+  "summary.c5": " which demonstrated high-level trust and recognition of my capabilities form the company.",
+  "summary.d1": "As a team player, I place a strong emphasis on ",
+  "summary.d2": "collaboration in development",
+  "summary.d3": ", including careful ",
+  "summary.d4": "pre-planning",
+  "summary.d5": ", accurate ",
+  "summary.d6": "estimation of work hours and task division",
+  "summary.d7": ", ",
+  "summary.d8": "code logic",
+  "summary.d9": " and ",
+  "summary.d10": "annotations",
+  "summary.d11": ", proper use of ",
+  "summary.d12": "version control and collaborative tools",
+  "summary.d13": ", and ",
+  "summary.d14": "clear communication",
+  "summary.d15": ". I often use ",
+  "summary.d16": "lists and graphs",
+  "summary.d17": " to communicate my ideas with colleagues.",
+  "summary.e1": "I have strong ",
+  "summary.e2": "logical thinking skills",
+  "summary.e3": ", flexible ",
+  "summary.e4": "implementation methods",
+  "summary.e5": ", am adept at ",
+  "summary.e6": " cross-departmental communication",
+  "summary.e7": " and mentoring junior colleagues. I have a high level of self-expectation in terms of my responsibilities at work, as well as personal skill development and learning. I believe that the rapid development of front-end technology iteration requires me to remain sharp and up-to-date.",
+  "summary.f1": "I am a person who is willing to ",
+  "summary.f2": "try new things and accept challenges",
+  "summary.f3": ", and I am ",
+  "summary.f4": "open to feedback and willing to learn",
+  "summary.f5": ". In my next job offer, I hope to expand my existing skill set. Possible areas of development include: learning a new front-end framework (such as React or Angular), exploring methods for deployment, compression, packaging, and performance optimization, creating visual or animated content, exploring SEO performance optimization strategies, acquiring knowledge in transmission and information security, or exploring back-end server and database technologies.",
+  "education": "Education",
+  "education.school": "National Tsing Hua University",
+  "education.diploma": "Bachelor of ",
+  "education.department": "Computer Science",
+  "education.graduate": "Graduated in 2021/01",
+  "skills": "Skills",
+  "skills.list": [
+    {
+      "id": "tools",
+      "title": "Development Skills and Tool Utilization",
+      "list": [
+        "Proficient in web fundamentals: HTML5 / CSS3 / Javascript. I am Familiar with ES6 syntax and JSDoc specification, as well as md syntax.",
+        "Familiar with SASS / SCSS and BEM conventions.",
+        "Skilled in asynchronous processing: RESTful API / axios / Promise (await async concept), and has rich experience in API interface design and integration.",
+        "Front-end frameworks: Vue2 / Vue3 / Vite / Vue-cli, familiar with Vue optional and compositional api, Vue lifecycle hook, component decomposition methods, JSX template language, proficient in Vuex / Pinia store usage, familiar with Vue-Router route design and configuration.",
+        "UI/UX frameworks: Bootstrap / Element-ui / Element Plus / Vant.",
+        "Version control tools: proficient in using git and able to flexibly use git cli commands, familiar with Github development mode, and have experience with Github CI/CD tools.",
+        "Other front-end libraries: vue-draggable / SortableJS / lodash / i18n and more.",
+        "Other collaboration tools: Trello / Notion / HackMd / Figma / Illustrator / Photoshop and more."
+      ]
+    },
+    {
+      "id": "work",
+      "title": "Job Abilities",
+      "list": [
+        "Clear logical thinking, able to design clear data structures and algorithms.",
+        "Able to plan RESTful API interfaces for backend engineers.",
+        "Proficient in web development, familiar with RWD and AWD implementation methods.",
+        "Skilled in using functional programming concepts and component decomposition logic, and able to plan and implement complex UX features.",
+        "Can design and manage large project structures and able to write clear development record documents.",
+        "Skilled in cross-departmental communication, serving as the front-end department liaison for product planning units, back-end development units, and QA testing units.",
+        "Evaluate development feasibility and research new features and maintain legacy code and update existing technologies.",
+        "Proactive, positive, and resourceful in proposing solutions."
+      ]
+    }
+  ],
+  "experience": "Experience",
+  "experience.prof": "Professional Experience",
+  "experience.part": "Part-time Jobs",
+  "experience.prof.list": [
+    {
+      "id": "NUEIP",
+      "title": "Front End Engineer",
+      "company": "NUEIP TECHNOLOGY",
+      "date": "2021/04 ~ now",
+      "duration": "2 years",
+      "list": [
+        {
+          "title": "Feature module development",
+          "content": "Main developer on Bpm product, complete key feature modules such as virtual organization / task creation / form design / process design / task filtering / task monitoring"
+        },
+        {
+          "title": "Front-end team coordination and code review:",
+          "content": "In a team of 5-6 people, review the code of 4-5 people, and give advice on writing logic, program architecture, program style, etc."
+        },
+        {
+          "title": "Interdepartmental communication and collaboration:",
+          "list": [
+            "Coordinate with colleagues in the product planning department on the feasibility, execution method, and time estimation of function development",
+            "Communicate with back-end engineers on **api interface design** and feature execution plans",
+            "Conduct feature testing QA with colleagues in the product testing department"
+          ]
+        },
+        {
+          "title": "Others: system maintenance and technical testing"
+        }
+      ],
+      "more": [
+        "During the two years of working in NUEIP, there were four performance appraisals, and I was **rated as the best in all of them, and the **salary increase was nearly 30%.",
+        "Comments from the head of the department:",
+        "The program design has high flexibility, the development work is **competent and exceeds expectations**, and has the potential for functional analysis and planning. Delivering functional planning, back-end communication, and guiding the tasks of junior colleagues, etc., performed very well, which is reassuring. Is a good instructor and adviser."
+      ],
+      "url": [],
+      "tools": ["Vue2", "Vuex", "VueRouter", "Vue-cli", "JSX", "SASS", "axios", "git", "github"]
+    }
+  ],
+
+  "__text-test-HMR__": "to test HMR"
+}
