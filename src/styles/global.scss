@@ -1,10 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;700&family=Rubik:wght@300;400;600&display=swap');
+
+$color-background: #d2edf9;
+$color-background-2: #1979a9;
+$color-background-3: #7ad5cf;
+$color-white: #EFF2F8;
+$color-blue: #6da9e4;
+
 * {
-    // border: solid 1px #888;
+    font-family: 'Noto Sans TC', 'Rubik', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1.6;
 }
 
-$color-background: #65cbb6;
-$color-background-2: #1979a9;
-$color-white: #EFF2F8;
+@media only screen and (max-width: 450px) {
+    * {
+        font-size: 16px;
+    }
+
+    .desktop-only {
+        opacity: 0;
+    }
+
+    .mobile-none {
+        display: none;
+    }
+}
+
 
 /**
  * 漸變動畫
@@ -57,10 +79,7 @@ $color-white: #EFF2F8;
     }
 }
 
-.body,
-html {
-    background-color: $color-background;
-}
+
 
 .single-highlight {
     font-weight: bold;

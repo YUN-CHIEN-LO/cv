@@ -9,7 +9,7 @@ let routes = [
     redirect: "/home",
     component: LayoutFrame,
     children: [
-      { path: "home", name: "home", component: () => import("@/views/home/HomePage.vue") },
+      { path: "home", name: "home", component: () => import("@/views/home/HomeIndex.vue") },
       {
         path: "single-page",
         name: "single-page",

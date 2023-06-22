@@ -1,5 +1,8 @@
 <template>
-  <div class="img absolute" :style="{ ...props, transform: `rotate(${props.rotate})` }">
+  <div
+    class="image-instance img absolute"
+    :style="{ ...props, transform: `rotate(${props.rotate})` }"
+  >
     <img :src="getUrl()" :alt="props.image" />
   </div>
 </template>
@@ -23,7 +26,7 @@ const props = defineProps({
     type: String,
     default: "30px",
   },
-  height: {
+  minWidth: {
     type: String,
     default: "auto",
   },
