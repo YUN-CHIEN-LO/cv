@@ -67,6 +67,10 @@ onBeforeMount(() => {
       </div>
     </lyc-navbar>
     <router-view></router-view>
+    <div class="footer">
+      <div>{{ $t("basic.location") }}</div>
+      <div>{{ $t("basic.email") }}</div>
+    </div>
   </div>
 </template>
 
@@ -77,12 +81,32 @@ onBeforeMount(() => {
 }
 
 .layout {
+  min-width: 300px;
   &__tools {
     margin-left: auto;
   }
   .lyc-link {
     font-size: 16px;
     line-height: 2.4;
+  }
+  .lyc-navbar {
+    background-color: transparent;
+    position: fixed;
+    width: 100vw;
+    top: 0px;
+    min-width: 300px;
+  }
+}
+.footer {
+  width: 100vw;
+  z-index: 2000;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 8px 16px;
+  box-sizing: border-box;
+  & > div {
+    text-align: right;
   }
 }
 </style>

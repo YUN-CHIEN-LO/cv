@@ -1,0 +1,72 @@
+* {
+    // border: solid 1px #888;
+}
+
+$color-background: #65cbb6;
+$color-background-2: #1979a9;
+$color-white: #EFF2F8;
+
+/**
+ * 漸變動畫
+ */
+@mixin setTransition ($transition: all 0.3s ease-in-out) {
+    -webkit-transition: $transition;
+    -moz-transition: $transition;
+    -o-transition: $transition;
+    transition: $transition;
+}
+
+
+/**
+ * == box-shadow ==
+ * 兼容主要瀏覽器shadow語法
+ * @param $shadow : shadow 設定
+ */
+@mixin shadow($shadow...) {
+
+    @each $pre in -webkit-,
+    -moz-,
+    -ms-,
+    -o- {
+        #{$pre + box-shadow}: $shadow;
+    }
+
+    #{box-shadow}: $shadow;
+}
+
+/**
+ * == keyframes ==
+ * 兼容主要瀏覽器動畫(keyframes)語法
+ * @param $name : keyframe 名稱
+ */
+@mixin keyframes($name) {
+    @-webkit-keyframes #{$name} {
+        @content;
+    }
+
+    @-moz-keyframes #{$name} {
+        @content;
+    }
+
+    @-ms-keyframes #{$name} {
+        @content;
+    }
+
+    @keyframes #{$name} {
+        @content;
+    }
+}
+
+.body,
+html {
+    background-color: $color-background;
+}
+
+.single-highlight {
+    font-weight: bold;
+
+    &:before,
+    &:after {
+        content: " ";
+    }
+}

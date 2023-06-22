@@ -12,11 +12,12 @@ export default defineConfig({
   css: {
     preprocessorOptions: {
       scss: {
-        additionalData: `@import "@/assets/global.scss";`,
+        additionalData: `@import "@/styles/global.scss";`,
       },
     },
   },
   resolve: {
     alias: [{ find: "@", replacement: fileURLToPath(new URL("./src", import.meta.url)) }],
   },
+  assetsInclude: ["./src/assets/**/*.PNG", "./src/assets/**/*.GIF"],
 });
