@@ -13,6 +13,7 @@
 
 <script setup lang="ts">
 import PageLanding from "@/views/home/PageLanding.vue";
+import { $t } from "@/plugins/i18n";
 </script>
 
 <style lang="scss" scoped>

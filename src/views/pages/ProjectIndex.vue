@@ -11,7 +11,7 @@
 <script setup lang="ts">
 import api from "@/api";
 import { storeToRefs } from "pinia";
-import { ref, reactive, computed, watch, onMounted } from "vue";
+import { ref, reactive,  watch, onMounted } from "vue";
 import { useLangStore } from "@/stores/lang";
 
 // 初始狀態槽
@@ -20,9 +20,6 @@ const store = useLangStore();
 const { currentLang } = storeToRefs(store);
 
 let projects = reactive([] as ProjectType[]);
-const lang = computed((): string => {
-    return currentLang.value.split("-")[0] as keyof LangVariantType;
-});
 
 const isLoading = ref(true as boolean);
 
