@@ -8,7 +8,7 @@
               <ImageInstance image="fish-3" width="45px" bottom="0px" right="20px" />
               <ImageInstance image="fish-2" width="36px" bottom="30px" right="60px" />
               <div class="page-summary__head-shot">
-                <img :src="headShotUrl" alt="YUN-CHIEN-LO" />
+                <img src="/assets/lyc-picture.png" alt="YUN-CHIEN-LO" />
               </div>
             </div>
             <lyc-paragraph type="block">
@@ -53,7 +53,6 @@
 import { $t } from "@/plugins/i18n";
 import { useLangStore } from "@/stores/lang";
 import { LANG_TYPE as TYPE } from "@/plugins/i18n";
-import headShotUrl from "@/assets/lyc-picture.PNG";
 import ImageInstance from "@/components/ImageInstance.vue";
 
 // 初始狀態槽

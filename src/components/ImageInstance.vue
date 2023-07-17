@@ -8,23 +8,23 @@
 </template>
 
 <script setup lang="ts">
-import leafSm1Url from "@/assets/leaf-sm-1.PNG";
-import leafSm2Url from "@/assets/leaf-sm-2.PNG";
-import leafSm3Url from "@/assets/leaf-sm-3.PNG";
-import leafSm4Url from "@/assets/leaf-sm-4.PNG";
-import leaf1Url from "@/assets/leaf-1.PNG";
-import leaf2Url from "@/assets/leaf-2.PNG";
-import leaf3Url from "@/assets/leaf-3.PNG";
-import leaf4Url from "@/assets/leaf-4.PNG";
-import leavesGroup1Url from "@/assets/leaves-group-1.PNG";
-import leavesGroup2Url from "@/assets/leaves-group-2.PNG";
-import leavesGroup3Url from "@/assets/leaves-group-3.PNG";
-import leavesGroup4Url from "@/assets/leaves-group-4.PNG";
-import fish1Url from "@/assets/fish-1.GIF";
-import fish2Url from "@/assets/fish-2.GIF";
-import fish3Url from "@/assets/fish-3.GIF";
-import fish4Url from "@/assets/fish-4.GIF";
-import wavesUrl from "@/assets/waves.PNG";
+import leafSm1Url from "/assets/leaf-sm-1.PNG";
+import leafSm2Url from "/assets/leaf-sm-2.PNG";
+import leafSm3Url from "/assets/leaf-sm-3.PNG";
+import leafSm4Url from "/assets/leaf-sm-4.PNG";
+import leaf1Url from "/assets/leaf-1.PNG";
+import leaf2Url from "/assets/leaf-2.PNG";
+import leaf3Url from "/assets/leaf-3.PNG";
+import leaf4Url from "/assets/leaf-4.PNG";
+import leavesGroup1Url from "/assets/leaves-group-1.PNG";
+import leavesGroup2Url from "/assets/leaves-group-2.PNG";
+import leavesGroup3Url from "/assets/leaves-group-3.PNG";
+import leavesGroup4Url from "/assets/leaves-group-4.PNG";
+import fish1Url from "/assets/fish-1.GIF";
+import fish2Url from "/assets/fish-2.GIF";
+import fish3Url from "/assets/fish-3.GIF";
+import fish4Url from "/assets/fish-4.GIF";
+import wavesUrl from "/assets/waves.PNG";
 
 export type ImageInstanceType = {
   id: string;
