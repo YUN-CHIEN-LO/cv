@@ -1,0 +1,134 @@
+{
+  "layout": {
+    "home": "首頁",
+    "singlePage": "一頁式履歷",
+    "lang": "English",
+    "loading": "加載中...",
+    "error": "找不到頁面...",
+    "backToHome": "回首頁",
+    "more": "看更多",
+    "less": "看更少"
+  },
+  "basic": {
+    "title": "基本資料",
+    "name": "羅云謙",
+    "portfolio": "2023 • 履歷與作品集",
+    "nameLang": "Yun Chien Lo",
+    "jobTitle": "網頁前端工程師 / 軟體工程師",
+    "birth": "1998 年生",
+    "location": "臺灣 • 臺北 / 新北 / 新竹 / 遠端",
+    "email": "yunchienlo.tw{'@'}gmail.com"
+  },
+  "summary": "簡介",
+  "summary.about": "關於我",
+  "summary.personality": "我的人格特質",
+  "summary.ambitions": "未來的期許",
+  "summary.a": "您好！我是羅云謙。我是一個對前端技術與開發有熱誠的工程師，並且熱衷於最新技術的學習，以及如何呈現創新的使用者體驗。",
+  "education": "學歷",
+  "education.school": "國立清華大學",
+  "education.department": "資訊工程學系",
+  "education.diploma": "學士學位",
+  "education.graduate": "畢業於 2021/01",
+  "education.brief": "國立清華大學資訊工程學系",
+  "about": {
+    "title": "關於我",
+    "intro": "您好！我是羅云謙，很高興認識您！\n\n從小到大，繪畫與設計都是我十分喜愛的熱情所在。上了大學之後，我進入了清華大學資訊工程學系就讀，並且嘗試",
+    "introBold": "嘗試將我對視覺藝術的熱情和資訊工程的專業訓練結合",
+    "introTrail": "，並在大四時找到「前端工程師」的職涯方向。\n\n同時擁有藝術家的靈魂與工程師的頭腦，使得我對我的工作充滿熱情、樂於創造與挑戰。",
+    "character": {
+      "title": "我的個性與特質",
+      "content": "我覺得我是很標準的",
+      "contentBold": "ISPF / 探險家 人格",
+      "contentTrail": "(16型人格)：",
+      "adventurer": {
+        "summary": "探險家人格類型的人是真正的藝術家。他們充滿好奇心，渴望嘗試新事物，常常擁有豐富多樣的熱情和興趣。憑藉著探索的精神和對日常生活的喜悅，探險家可能是你所遇見的最有趣的人之一。",
+        "pros": "可能的優點：",
+        "prosBold": "迷人、對他人的感受敏銳、富有想像力、熱情、好奇、藝術",
+        "cons": "可能的缺點：極度獨立、不可預測、容易緊張、過度競爭、自尊心波動",
+        "link": "看更多：探險家的工作特質"
+      }
+    },
+    "work": {
+      "title": "程式開發的工作能力",
+      "content": "畢業後我從事程式開發的工作，其中我擁有兩年的網頁系統前端工程師經驗(Vue)，並且很快的在團隊中擔任重要的開發成員。",
+      "contentBold": "\n\n我從 「企業流程管理服務(BPM)」 專案啟動一直到第一階段產品上線，都積極參與規劃與開發，大約完成 70% 的專案內容，",
+      "contentTrail": "期間我的專業技術與團隊協作能力大幅的成長與成熟，並在後續的開發時間提供其他團隊成員程式設計建議與方向。"
+    },
+    "team": {
+      "title": "團隊合作的一員",
+      "content": "在團隊中的我十分注重開發的協作性，其中包括：",
+      "list": [
+        "實作方法的事前規劃",
+        "準確的估工估時",
+        "程式碼邏輯的清楚與注釋的嚴謹",
+        "適當使用版本控制與協作輔助工具",
+        "清楚的溝通，我習慣使用條列和圖像的方式來向其他同事溝通我的想法"
+      ]
+    },
+    "logic": {
+      "title": "寫程式的思維",
+      "content": "身為一個軟體工程師，我具備以下的條件：",
+      "list": [
+        "邏輯清晰，可以設計清楚的資料結構與演算法",
+        "善用 functional programming 概念與元件拆分邏輯，並且能規劃並實作複雜的 UX 功能",
+        "可以設計與管理專案架構與撰寫清楚的開發紀錄文件",
+        "評估開發可行性與研發新功能和維護遺產程式碼與更新舊有技術",
+        "主動、積極，並且善用資源來提出解決方案",
+        "關注當前科技發展趨勢，並且勇於學習與挑戰新技術"
+      ]
+    },
+    "future": {
+      "title": "未來期望與規劃",
+      "content": "我是一個勇於嘗試與接受挑戰，並且樂於接受指教的人。在新的工作中我希望可以突破我現有的技術能力，一些可能的面相有：",
+      "list": [
+        "完全掌握並運用 React 或 Angular 任一前端框架",
+        "接觸部署 / 壓縮 / 打包 / 效能優化的方法",
+        "製作視覺化或動畫的作品",
+        "接觸SEO或效能優化的專案",
+        "學習傳輸與資訊安全相關的知識",
+        "接觸後端伺服器與資料庫的技術"
+      ]
+    }
+  },
+  "experience": {
+    "title": "工作經驗",
+    "seniority": {
+      "title": "累積年資",
+      "value": "5~6年工作經驗(在職中)"
+    },
+    "accumulate": {
+      "title": "累積經驗",
+      "value": "前端開發工程師 3~4年 、 軟體工程師 0~1年 、 平面設計 3~4年 、 多媒體動畫設計師 0~1年"
+    }
+  },
+  "skill": {
+    "title": "能力與技術",
+    "web": "網頁前端技術",
+    "english": "英文檢定",
+    "toefl": "托福檢定(TOEFL)",
+    "toeic": "多益檢定(TOEIC)",
+    "webList": [
+      "熟悉網頁基礎：HTML5 / CSS3 / Javascript 並熟悉 ES6 語法與 JSDoc 規範，熟悉 md 語法。",
+      "熟悉 SASS / SCSS 與 BEM 規範。",
+      "善用非同步處理：RESTful API / axois / Promise(awiat async 概念)，並且有豐富的 api 介面設計與串接經驗。",
+      "前端框架：Vue2 / Vue3  / Vite / Vue-cli，熟悉 vue optional 和 compositional api、vue 生命週期、元件拆分方法、JSX 樣板語言，熟悉 Vuex / Pinia 狀態槽的使用，熟悉 Vue-Router 路由設計與配置。",
+      "UI/UX 框架：Bootstrap / Element-ui / Element Plus / Vant。",
+      "版控工具：善用 git 並且可以靈活運用 git cli 指令，熟悉 github 開發模式，並接觸過 github CI/CD 工具。",
+      "其他前端套件：vue-draggable / SortableJS / lodash / i18n 和更多。",
+      "其他協作輔助工具：trello / notion / hackmd / figma / Illustrator / Photoshop 和更多。"
+    ],
+    "otherList": [
+      "邏輯清晰，可以設計清楚的資料結構與演算法。",
+      "能夠規劃 RESTfulAPI 介面提供給後端工程師。",
+      "具備網頁開發能力，熟悉 RWD 和 AWD 實作方法。",
+      "善用 functional programming 概念與元件拆分邏輯，並且能規劃並實作複雜的 UX 功能。",
+      "可以設計與管理大型專案架構與撰寫清楚的開發紀錄文件。",
+      "善於跨部門溝通，擔任前端部門對產品規劃單位、後端開發單位、QA測試單位的對口。",
+      "評估開發可行性與研發新功能和維護遺產程式碼與更新舊有技術。",
+      "主動、積極，並且善用資源來提出解決方案。"
+    ]
+  },
+  "project": {
+    "title": "專案與作品集"
+  }
+}

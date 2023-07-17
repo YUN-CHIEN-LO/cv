@@ -1,0 +1,168 @@
+{
+  "layout": {
+    "home": "Home",
+    "singlePage": "Single Page CV",
+    "lang": "中文",
+    "loading": "Loading...",
+    "error": "Page not found...",
+    "backToHome": "Back to home",
+    "more": "Read More",
+    "less": "Read Less"
+  },
+  "basic": {
+    "title": "Basic Info",
+    "name": "Yun Chien Lo",
+    "nameLang": "羅云謙",
+    "portfolio": "2023 • Portfolio",
+    "jobTitle": "Web Front-end developer / Software engineer",
+    "birth": "Born in 1998",
+    "location": "Remote / Taipei / Hsin Chu / Taiwan R.O.C",
+    "email": "yunchienlo.tw{'@'}gmail.com"
+  },
+  "summary": "Summary",
+  "summary.a": "Hello, my name is Yun Chien Lo. I am a passionate software engineer who is enthusiastic about front-end technology and development, and is eager to learn the latest techniques to deliver innovative user experiences.",
+  "summary.b1": "I graduated from ",
+  "summary.b2": "the Department of Computer Science at National Tsing Hua University",
+  "summary.b3": "where I gained solid programming training and foundational knowledge in areas such as algorithms, data structures, and operating systems.",
+  "summary.c1": "Since graduation (January 2021), I have worked as a front-end engineer with ",
+  "summary.c2": "2 years of experience in web system development (Vue).",
+  "summary.c3": "I quickly became an important member of the team and received recognition from my colleagues, leading to a ",
+  "summary.c4": "30% increase in salary, ",
+  "summary.c5": " which demonstrated high-level trust and recognition of my capabilities form the company.",
+  "summary.d1": "As a team player, I place a strong emphasis on ",
+  "summary.d2": "collaboration in development",
+  "summary.d3": ", including careful ",
+  "summary.d4": "pre-planning",
+  "summary.d5": ", accurate ",
+  "summary.d6": "estimation of work hours and task division",
+  "summary.d7": ", ",
+  "summary.d8": "code logic",
+  "summary.d9": " and ",
+  "summary.d10": "annotations",
+  "summary.d11": ", proper use of ",
+  "summary.d12": "version control and collaborative tools",
+  "summary.d13": ", and ",
+  "summary.d14": "clear communication",
+  "summary.d15": ". I often use ",
+  "summary.d16": "lists and graphs",
+  "summary.d17": " to communicate my ideas with colleagues.",
+  "summary.e1": "I have strong ",
+  "summary.e2": "logical thinking skills",
+  "summary.e3": ", flexible ",
+  "summary.e4": "implementation methods",
+  "summary.e5": ", am adept at ",
+  "summary.e6": " cross-departmental communication",
+  "summary.e7": " and mentoring junior colleagues. I have a high level of self-expectation in terms of my responsibilities at work, as well as personal skill development and learning. I believe that the rapid development of front-end technology iteration requires me to remain sharp and up-to-date.",
+  "summary.f1": "I am a person who is willing to ",
+  "summary.f2": "try new things and accept challenges",
+  "summary.f3": ", and I am ",
+  "summary.f4": "open to feedback and willing to learn",
+  "summary.f5": ". In my next job offer, I hope to expand my existing skill set. Possible areas of development include: learning a new front-end framework (such as React or Angular), exploring methods for deployment, compression, packaging, and performance optimization, creating visual or animated content, exploring SEO performance optimization strategies, acquiring knowledge in transmission and information security, or exploring back-end server and database technologies.",
+  "education": "Education",
+  "education.school": "National Tsing Hua University",
+  "education.diploma": "Bachelor of ",
+  "education.department": "Computer Science",
+  "education.graduate": "Graduated in 2021/01",
+  "education.brief": "Department of Computer Science at National Tsing Hua University",
+  "about": {
+    "title": "About Me",
+    "intro": "Hello! My name is Yun Chien Lo. It's nice to meet you!\n\nFrom a young age, I've had a strong passion for drawing and design. When I entered university, I enrolled in the Computer Science and Engineering program at Tsinghua University.",
+    "introBold": "I attempted to merge my love for visual arts with my technical training in computer engineering.",
+    "introTrail": "During my senior year, I discovered my career path as a \"frontend engineer.\"\n\nHaving both the soul of an artist and the mind of an engineer, I approach my work with enthusiasm, a desire to create, and a willingness to tackle challenges.",
+    "character": {
+      "title": "My personality and traits",
+      "content": "I believe I have a very typical",
+      "contentBold": "ISFP/Adventurer personality",
+      "contentTrail": "according to the Myers-Briggs Type Indicator (MBTI):",
+      "adventurer": {
+        "summary": "Adventurers are true artists.Driven by curiosity and eager to try new things, people with this personality often have a fascinating array of passions and interests. With their exploratory spirits and their ability to find joy in everyday life, Adventurers can be among the most interesting people you’ll ever meet.",
+        "pros": "Possible strengths:",
+        "prosBold": "Charming, Sensitive to Others, Imaginative, Passionate, Curious, Artistic.",
+        "cons": "Possible weaknesses: Fiercely Independent, Unpredictable, Easily Stressed, Overly Competitive, Fluctuating Self-Esteem.",
+        "link": "See more: Career Paths of Adventurer"
+      }
+    },
+    "work": {
+      "title": "Programming Skills in Software Development",
+      "content": "After graduation, I worked as a frontend developer with two years of experience specializing in web development using Vue.js.\n\nI quickly became a key member of the team,",
+      "contentBold": "actively participating in the planning and development stages of a BPM(Business Process Management) project. I contributed to approximately 70% of the project,",
+      "contentTrail": " and my technical skills and teamwork abilities grew significantly.\n\nI also provided programming advice and direction to other team members."
+    },
+    "team": {
+      "title": "A good team player",
+      "content": "As a team player, I place a strong emphasis on:",
+      "list": [
+        "Pre-planning for the implementation of the methodology",
+        "Accurate estimation of effort and time",
+        "Clear code logic and meticulous commenting",
+        "Proper use of version control and collaborative tools",
+        "Effective communication, I prefer using bullet points and visual aids to convey my ideas to colleagues."
+      ]
+    },
+    "logic": {
+      "title": "Programming thinking",
+      "content": "As a software engineer, I possess the following qualities:",
+      "list": [
+        "Clear logical thinking for designing efficient data structures and algorithms",
+        "Proficiency in functional programming and component-based logic for implementing complex UX functionalities",
+        "Ability to design project architectures, manage them effectively, and create concise development documentation",
+        "Capabilities in assessing feasibility, researching and implementing new features, maintaining and updating existing technologies",
+        "Proactive and resourceful approach, proposing solutions and utilizing available resources",
+        "Keeping up with technology trends and being enthusiastic about learning and adopting new technologies"
+      ]
+    },
+    "future": {
+      "title": "Future plannings",
+      "content": "I am someone who is willing to try new things, embrace challenges, and open to receiving feedback. In a new job, I aspire to push beyond my current technical abilities. Some potential aspects include:",
+      "list": [
+        "Complete mastery and utilization of either React or Angular frontend frameworks",
+        "Experience in deployment / compression / packaging / performance optimization methods",
+        "Creating visualizations or animations in projects",
+        "Involvement in SEO or performance optimization projects",
+        "Learning about transmission and information security-related knowledge",
+        "Exposure to backend server and database technologies"
+      ]
+    }
+  },
+  "experience": {
+    "title": "Job Experience",
+    "seniority": {
+      "title": "Cumulative Seniority",
+      "value": "5~6 years working experience (on the job)"
+    },
+    "accumulate": {
+      "title": "Cumulative Experience",
+      "value": "Front-end development engineer 3~4 years,  Software engineer 0~1 year,  Graphic design 3~4 years Multimedia animation designer 0~1 year"
+    }
+  },
+  "skill": {
+    "title": "Skills",
+    "web": "Web Front-end",
+    "english": "English Certificates",
+    "toefl": "TOEFL",
+    "toeic": "TOEIC",
+    "webList": [
+      "Proficient in web fundamentals: HTML5 / CSS3 / Javascript. I am Familiar with ES6 syntax and JSDoc specification, as well as md syntax.",
+      "Familiar with SASS / SCSS and BEM conventions.",
+      "Skilled in asynchronous processing: RESTful API / axios / Promise (await async concept), and has rich experience in API interface design and integration.",
+      "Front-end frameworks: Vue2 / Vue3 / Vite / Vue-cli, familiar with Vue optional and compositional api, Vue lifecycle hook, component decomposition methods, JSX template language, proficient in Vuex / Pinia store usage, familiar with Vue-Router route design and configuration.",
+      "UI/UX frameworks: Bootstrap / Element-ui / Element Plus / Vant.",
+      "Version control tools: proficient in using git and able to flexibly use git cli commands, familiar with Github development mode, and have experience with Github CI/CD tools.",
+      "Other front-end libraries: vue-draggable / SortableJS / lodash / i18n and more.",
+      "Other collaboration tools: Trello / Notion / HackMd / Figma / Illustrator / Photoshop and more."
+    ],
+    "otherList": [
+      "Clear logical thinking, able to design clear data structures and algorithms.",
+      "Able to plan RESTful API interfaces for backend engineers.",
+      "Proficient in web development, familiar with RWD and AWD implementation methods.",
+      "Skilled in using functional programming concepts and component decomposition logic, and able to plan and implement complex UX features.",
+      "Can design and manage large project structures and able to write clear development record documents.",
+      "Skilled in cross-departmental communication, serving as the front-end department liaison for product planning units, back-end development units, and QA testing units.",
+      "Evaluate development feasibility and research new features and maintain legacy code and update existing technologies.",
+      "Proactive, positive, and resourceful in proposing solutions."
+    ]
+  },
+  "project": {
+    "title": "Personal Projects"
+  }
+}
