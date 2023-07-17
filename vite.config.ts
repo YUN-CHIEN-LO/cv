@@ -25,5 +25,5 @@ export default defineConfig({
       },
     ],
   },
-  assetsInclude: ["./src/assets/**/*.PNG", "./src/assets/**/*.GIF"],
+  assetsInclude: ["src/assets/**/*.PNG", "src/assets/**/*.GIF"],
 });
