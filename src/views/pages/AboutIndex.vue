@@ -125,6 +125,8 @@ import ImageInstance from "@/components/ImageInstance.vue";
 import { useLangStore } from "@/stores/lang";
 import { LANG_TYPE as TYPE } from "@/plugins/i18n";
 
+
+
 // 初始狀態槽
 const store = useLangStore();
 </script>

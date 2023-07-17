@@ -1,6 +1,6 @@
 import { defineConfig } from "vite";
-import { fileURLToPath, URL } from "url";
 import vue from "@vitejs/plugin-vue";
+import path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -18,12 +18,9 @@ export default defineConfig({
     },
   },
   resolve: {
-    alias: [
-      {
-        find: "@",
-        replacement: fileURLToPath(new URL("./src", import.meta.url)),
-      },
-    ],
+    alias: {
+      '@': path.resolve(__dirname, './src'),
+    },
   },
-  assetsInclude: ["src/assets/**/*.PNG", "src/assets/**/*.GIF"],
+  assetsInclude: ["**/*.PNG", "**/*.GIF"],
 });
