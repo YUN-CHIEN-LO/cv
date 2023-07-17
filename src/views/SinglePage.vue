@@ -6,7 +6,6 @@
         <lyc-row>
           <lyc-column :flex="1">
             <div class="page__head-shot">
-              <img :src="headShotUrl" alt="YUN-CHIEN-LO" />
             </div>
           </lyc-column>
           <lyc-column :flex="3">
@@ -27,7 +26,6 @@
 
 <script setup lang="ts">
 import { $t } from "@/plugins/i18n";
-import headShotUrl from "@/assets/lyc-picture.PNG";
 
 
 </script>
