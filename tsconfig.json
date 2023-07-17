@@ -23,7 +23,11 @@
     /* path alias*/
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+
+    "types": [
+      "vite/client"
+    ]
   },
   "include": ["vite-env.d.ts", "src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
   "references": [{ "path": "./tsconfig.node.json" }]

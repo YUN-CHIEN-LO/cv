@@ -1,12 +1,14 @@
 {
   "name": "cv",
-  "private": true,
-  "version": "0.0.0",
+  "private": false,
+  "version": "0.1.0",
   "type": "module",
+  "homepage": "https://yun-chien-lo.github.io/cv/",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@yun-chien-lo/lyc-ui": "^0.0.44",
@@ -21,6 +23,7 @@
     "@types/lodash": "^4.14.195",
     "@types/node": "^20.4.2",
     "@vitejs/plugin-vue": "^4.2.3",
+    "gh-pages": "^5.0.0",
     "sass": "^1.63.6",
     "typescript": "^5.1.6",
     "vite": "^4.4.4",
