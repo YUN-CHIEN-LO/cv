@@ -94,7 +94,7 @@ let routes = [
 export default createRouter({
   history,
   routes,
-  scrollBehavior(to, from, savedPosition) {
+  scrollBehavior() {
     return { top: 0 };
   },
 });

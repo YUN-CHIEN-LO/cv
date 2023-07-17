@@ -1,12 +1,7 @@
 <template>
   <div class="page-landing" ref="main">
     <div class="desktop-background">
-      <ImageInstance
-        v-for="image in desktopBackgroundImages"
-        class="leaf"
-        :key="image.id"
-        v-bind="image"
-      />
+      <ImageInstance v-for="image in desktopBackgroundImages" class="leaf" :key="image.id" v-bind="image" />
     </div>
     <div class="ripple ripple--1"></div>
 
@@ -25,12 +20,7 @@
       <div class="fish fish--4">
         <ImageInstance image="fish-4" width="45px" bottom="0" rotate="45deg" />
       </div>
-      <ImageInstance
-        v-for="image in middleGroundImages"
-        class="leaf"
-        :key="image.id"
-        v-bind="image"
-      />
+      <ImageInstance v-for="image in middleGroundImages" class="leaf" :key="image.id" v-bind="image" />
       <div class="ripple ripple--2"></div>
     </div>
     <div class="fish fish--3">
@@ -226,12 +216,12 @@ const middleGroundImages = [
 ] as ImageInstanceType[];
 
 const main = ref();
-let ctx;
+let ctx = null as any;
 
 const getRandomSign = (num: number): number => num * (Math.random() < 0.5 ? -1 : 1);
 
 onMounted(() => {
-  ctx = gsap.context((self) => {
+  ctx = gsap.context((self: any) => {
     const allLeaves = self.selector(".leaf");
     allLeaves.forEach((leaf: HTMLElement | null) => {
       gsap.to(leaf, {
@@ -269,6 +259,7 @@ onUnmounted(() => {
         }
       }
     }
+
     &:nth-child(even) {
       :deep() {
         img {
@@ -283,20 +274,24 @@ onUnmounted(() => {
     top: 50%;
     left: 50%;
     transform-origin: top left;
+
     &--1 {
       height: 300px;
       animation: rotate-float 11s -2s linear infinite;
     }
+
     &--2 {
       min-height: 200px;
       height: 30vw;
       animation: rotate-float 10s -4s linear infinite reverse;
     }
+
     &--3 {
       min-height: 280px;
       height: 45vw;
       animation: rotate-float 20s -1s linear infinite;
     }
+
     &--4 {
       min-height: 240px;
       height: 33vw;
@@ -306,6 +301,7 @@ onUnmounted(() => {
 
   & .ripple {
     @include setPositionAbs();
+
     &::before,
     &::after {
       content: "";
@@ -316,6 +312,7 @@ onUnmounted(() => {
       border: solid 2px $color-white;
       animation: ripple 3s -1s linear infinite;
     }
+
     &::after {
       width: 20%;
       height: 20%;
@@ -323,27 +320,32 @@ onUnmounted(() => {
       border: solid 2px $color-white;
       animation: ripple 4s -2s linear infinite;
     }
+
     &--1 {
       top: 30%;
       left: 30%;
       width: 100px;
       height: 100px;
+
       &::before {
         animation-duration: 5s;
         animation-delay: -2s;
       }
     }
+
     &--2 {
       top: 10%;
       right: 30%;
       width: 200px;
       height: 200px;
       transform: rotate(-100deg);
+
       &::after {
         animation-duration: 5s;
         animation-delay: -2s;
       }
     }
+
     &--3 {
       top: 70%;
       left: 10%;
@@ -352,7 +354,8 @@ onUnmounted(() => {
       transform: rotate(30deg);
     }
   }
-  & > .spotlight {
+
+  &>.spotlight {
     @include setPositionAbs();
     top: 50%;
     left: 50%;
@@ -364,6 +367,7 @@ onUnmounted(() => {
     border-radius: 100%;
     @include shadow(0px 0px 100px 100px $color-background-2);
     opacity: 0.3;
+
     &--background {
       min-width: 500px;
       min-height: 500px;
@@ -371,20 +375,21 @@ onUnmounted(() => {
       height: 80vh;
     }
   }
-  & > .background {
+
+  &>.background {
     opacity: 0.8;
   }
 
-  & > .desktop-background {
+  &>.desktop-background {
     opacity: 0;
     @include setTransition(opacity 0.3s ease-in-out);
   }
 
-  & > .middle-ground {
+  &>.middle-ground {
     @include setTransition(opacity 0.3s ease-in-out);
   }
 
-  & > .foreground {
+  &>.foreground {
     @include setPositionAbs();
     min-width: 300px;
     width: 30vw;
@@ -396,24 +401,29 @@ onUnmounted(() => {
     & .middle-ground {
       opacity: 0;
     }
+
     & .spotlight {
       @include shadow(0px 0px 50px 50px $color-background-2);
     }
+
     & .spotlight--background {
       opacity: 0;
     }
   }
 }
+
 @include large-device() {
   .page-landing {
     & .spotlight--background {
       opacity: 0.3;
     }
+
     & .desktop-background {
       opacity: 0.6;
     }
   }
 }
+
 @include desktop-device() {
   .page-landing {
     & .middle-ground {

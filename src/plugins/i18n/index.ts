@@ -2,7 +2,6 @@ import { createI18n } from "vue-i18n";
 import zh from "@/plugins/i18n/zh-TW.json";
 import en from "@/plugins/i18n/en-US.json";
 
-type MessageSchema = typeof zh;
 
 export enum LANG_TYPE {
   zh = "zh-TW",
@@ -20,7 +19,7 @@ if (localStorage.getItem("i18nLang")) {
   localStorage.setItem("i18nLang", locale);
 }
 
-const i18n = createI18n<[MessageSchema], LANG_TYPE.zh | LANG_TYPE.en>({
+const i18n = createI18n({
   legacy: false, // 要把 legacy 設為 false，才可以使用 Composition API
   locale,
   fallbackLocale: LANG_TYPE.en,
@@ -30,7 +29,7 @@ const i18n = createI18n<[MessageSchema], LANG_TYPE.zh | LANG_TYPE.en>({
     [LANG_TYPE.zh]: zh,
     [LANG_TYPE.en]: en,
   },
-});
+} as any);
 
 export const $t = i18n.global.t;
 

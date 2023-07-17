@@ -13,6 +13,9 @@ declare module "*.PNG";
 declare module "*.GIF";
 declare module "gsap";
 
+declare module "@yun-chien-lo/lyc-ui";
+declare module "vue-i18n";
+
 declare interface ResponseInterface {
   data: any[];
 }
