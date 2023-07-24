@@ -30,14 +30,14 @@
             <ImageInstance class="leaves" image="leaf-3" width="100%" rotate="20deg" />
             <div class="page-navigate__label">{{ $t("skill.title") }}</div>
           </router-link>
-          <router-link
+          <!-- <router-link
             to="/page/project"
             :class="['page-navigate__link', { 'is-active': isActive('project') }]"
           >
             <ImageInstance class="leaves" image="leaf-4" width="100%" rotate="20deg" />
             <div class="page-navigate__label"></div>
             <div class="page-navigate__label">{{ $t("project.title") }}</div>
-          </router-link>
+          </router-link> -->
         </lyc-row>
         <lyc-row v-if="currentActivePage!=='home'">
           <router-link style="width: 100%" to="/">

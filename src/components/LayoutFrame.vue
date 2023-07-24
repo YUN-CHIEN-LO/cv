@@ -42,10 +42,10 @@ const sidebarRoutes = [
     path: "/page/skill",
     label: "skill.title",
   },
-  {
-    path: "/page/project",
-    label: "project.title",
-  },
+  // {
+  //   path: "/page/project",
+  //   label: "project.title",
+  // },
 ] as RouteType[];
 
 /**
