@@ -14,15 +14,7 @@ export default {
       }, 1000);
     });
   },
-  listProjects:()=>{
-    return new Promise((resolve)=>{
-      
-      const timer = setTimeout(() => {
-        resolve({
-          data: project as ProjectType[],
-        });
-        clearTimeout(timer);
-      }, 1000);
-    })
-  }
+  listProjects:()=>({
+    data: project as ProjectType[],
+  })
 };
