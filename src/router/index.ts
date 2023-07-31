@@ -1,7 +1,7 @@
 import LayoutFrame from "@/components/LayoutFrame.vue";
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHashHistory } from "vue-router";
 
-let history = createWebHistory(import.meta.env.BASE_URL);
+let history = createWebHashHistory(import.meta.env.BASE_URL);
 let routes = [
   {
     // 錯誤頁面
